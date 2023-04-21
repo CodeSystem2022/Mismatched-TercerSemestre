@@ -1,0 +1,6 @@
+Escribiendo una linea de texto en prueba.txt desde python.
+Agrego caracteres con acento
+Como por ejemplo: acción, ejecución y producción
+r,a,w,c = (read,append,write, create,text) sucesivamente
+t para text, b para binary, w+ lee y escribe, r+ lee y escribe
+Con esto terminamos
