@@ -21,8 +21,9 @@ INTEGRANTES:
 Lenguajes:
 Python - Java	- Javascript
 
-📆 Organización Semanal
-Número de semana	Scrum Master
+📆 Organización Semanal                                                                                                                                     
+Número de semana	Scrum Master 
+
 📝 semana 1	Facundo Rojas
 📝 semana 2	Santiago Martos
 📝 semana 3	Genaro Mazzocca
