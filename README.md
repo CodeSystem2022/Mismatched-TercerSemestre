@@ -12,11 +12,11 @@ INTEGRANTES:
 
 -💻 Agustín Martinez
 
--💻 Jennifer Ruiz Diaz 
+-💻 Ledesma, Silvana Soledad
 
 -💻 Karim Tala
 
--💻 Ledesma, Silvana Soledad
+-💻 Jennifer Ruiz Diaz 
 
 Lenguajes:
 Python - Java	- Javascript
@@ -30,6 +30,6 @@ Python - Java	- Javascript
 | semana 3 |	Genaro Mazzocca |
 | semana 4 |	Santiago Martos |
 | semana 5 |	Agustín Martinez |
-| semana 6 |	Jennifer Ruiz Diaz |
+| semana 6 |	Ledesma, Silvana Soledad |
 | semana 7 |	Karim Tala |
-| semana 8 |	Ledesma, Silvana Soledad |
+| semana 8 |	Jennifer Ruiz Diaz |
