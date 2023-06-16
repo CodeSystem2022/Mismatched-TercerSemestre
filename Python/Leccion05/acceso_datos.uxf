@@ -1,0 +1,44 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><element><id>UMLClass</id><coordinates><x>132</x><y>162</y><w>156</w><h>138</h></coordinates><panel_attributes>conexion
+--
+-DATABASE: String
+-USERNAME : String
+-PASSWORD: String
+-DB_PORT: String
+-HOST: String
+-conexion: connection
+-cursor: Cursor
+--
++obtenerConexion(cls): Connection
++obtenerCursor(cls): Cursor
++cerrar(cls)
+--
+Responsibilities
+Administrar la conexion a la base de datos.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>318</y><w>126</w><h>156</h></coordinates><panel_attributes>PersonaDao
+--
+-SELECCION: String
+-INSERTAR: String
+-ACTUALIZAR: String
+-ELIMINAR : String
+--
++seleccionar(cls)
++insertar(cls, persona)
++actualizar(cls, persona)
++eliminar(cls, persona)
+--
+Responsibilities
+Realizar las operaciones 
+sobre la base de datos de la
+ entidad Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>144</y><w>138</w><h>102</h></coordinates><panel_attributes>Persona
+--
+-id_persona: int
+-nombre: String
+-apellido: String
+-email: String
+--
++__str__(): String
++metodo Get/Set de cada atributo
+--
+Responsibilities
+Crear Objetos de la entidad de Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>240</y><w>18</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>390</y><w>228</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>360;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>294</y><w>18</w><h>114</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>84</x><y>72</y><w>594</w><h>468</h></coordinates><panel_attributes>acceso_datos
+--
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
