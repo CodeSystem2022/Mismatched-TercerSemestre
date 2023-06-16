@@ -1,0 +1,33 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>10</x><y>30</y><w>530</w><h>430</h></coordinates><panel_attributes>catalogo_peliculas
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>20</x><y>60</y><w>230</w><h>190</h></coordinates><panel_attributes>dominio
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>290</x><y>60</y><w>230</w><h>190</h></coordinates><panel_attributes>servicio
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>90</y><w>190</w><h>150</h></coordinates><panel_attributes>Pelicula
+--
+-nombre: str
+--
++__str__()
+--
+Responsibilities
+--Representa un objeto pélicula</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>310</y><w>210</w><h>120</h></coordinates><panel_attributes>test_catalogo_peliculas.py
+--
+Responsabilidades:
+--Contiene un menu con 4 opciones:
+1) Agregar pelicula
+2) Listar peliculas
+3) Eliminar archivo de peliculas
+4) Salir</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>130</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+&lt;&lt;agrega&gt;&gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>90</y><w>210</w><h>150</h></coordinates><panel_attributes>CalogoPeliculas
+--
++ ruta_archivo: str &lt;&lt;static&gt;&gt;
+--
++ agregar_pelicula(Pelicula) &lt;&lt;static&gt;&gt;
++ listar_peliculas() &lt;&lt;static&gt;&gt;
++ eliminar() &lt;&lt;static&gt;&gt;
+--
+Responsabilidades:
+--Realizar las operaciones sobre
+el archivo de peliculas txt
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
