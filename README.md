@@ -31,5 +31,8 @@ Python - Java	- Javascript
 | semana 4 |	Santiago Martos |
 | semana 5 |	Agustín Martinez |
 | semana 6 |	Ledesma, Silvana Soledad |
-| semana 7 |	Karim Tala |
-| semana 8 |	Jennifer Ruiz Diaz |
+| semana 7 |	Facundo Rojas |
+| semana 8 |	Joel Luján |
+| semana 9 |	Genaro Mazzocca |
+| semana 10 |	Santiago Martos |
+| semana 11 |	Agustín Martinez |
