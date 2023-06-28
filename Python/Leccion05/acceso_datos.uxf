@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><element><id>UMLClass</id><coordinates><x>132</x><y>162</y><w>156</w><h>138</h></coordinates><panel_attributes>conexion
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>64</x><y>144</y><w>208</w><h>184</h></coordinates><panel_attributes>conexion
 --
 -DATABASE: String
 -USERNAME : String
@@ -13,7 +13,7 @@
 +cerrar(cls)
 --
 Responsibilities
-Administrar la conexion a la base de datos.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>318</y><w>126</w><h>156</h></coordinates><panel_attributes>PersonaDao
+Administrar la conexion a la base de datos.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>464</x><y>352</y><w>168</w><h>208</h></coordinates><panel_attributes>PersonaDao
 --
 -SELECCION: String
 -INSERTAR: String
@@ -28,7 +28,7 @@ Administrar la conexion a la base de datos.</panel_attributes><additional_attrib
 Responsibilities
 Realizar las operaciones 
 sobre la base de datos de la
- entidad Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>144</y><w>138</w><h>102</h></coordinates><panel_attributes>Persona
+ entidad Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>448</x><y>120</y><w>184</w><h>136</h></coordinates><panel_attributes>Persona
 --
 -id_persona: int
 -nombre: String
@@ -39,6 +39,6 @@ sobre la base de datos de la
 +metodo Get/Set de cada atributo
 --
 Responsibilities
-Crear Objetos de la entidad de Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>240</y><w>18</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>390</y><w>228</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>360;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>216</x><y>294</y><w>18</w><h>114</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>84</x><y>72</y><w>594</w><h>468</h></coordinates><panel_attributes>acceso_datos
+Crear Objetos de la entidad de Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>536</x><y>248</y><w>24</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>448</y><w>304</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>360;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>176</x><y>320</y><w>24</w><h>152</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>0</x><y>24</y><w>792</w><h>624</h></coordinates><panel_attributes>acceso_datos
 --
 </panel_attributes><additional_attributes></additional_attributes></element></diagram>
