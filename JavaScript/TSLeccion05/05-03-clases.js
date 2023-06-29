@@ -46,6 +46,7 @@ class Persona {//clase Padre
     return this.nombreCompleto();
   }
 
+  
   //metodo static se va a asociar a la clase no a los objetos, o sea no es posible asociarla
   static saludar(){
     console.log('Saludos desde este metodo static');
