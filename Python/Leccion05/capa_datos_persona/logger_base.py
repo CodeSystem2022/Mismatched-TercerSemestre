@@ -1,7 +1,9 @@
 import logging as log
-#o tambien se podria hacer log = logging
-# LLamamos una configuracion básica
+
+#o tambien se podria hacer log = logging LLamamos una configuracion básica.
+
 # https://docs.python.org/3/howto/logging.html
+
 log.basicConfig(level= log.DEBUG,
                 format='%(asctime)s:%(levelname)s [%(filename)s:%(lineno)s] %(message)s',
                 datefmt= '%I:%m:%S %p',
@@ -11,8 +13,8 @@ log.basicConfig(level= log.DEBUG,
                 ])
 
 if __name__ == '__main__':
-    log.debug('Mensaje a nivel debug')
-    log.info('Mensaje a nivel info')
-    log.warning('Mensaje a nivel warning')
-    log.error('Mensaje a nivel error')
-    log.critical('Mensaje a nivel critical')
+    log.debug('Mensaje a nivel debug ')
+    log.info('Mensaje a nivel info ')
+    log.warning('Mensaje a nivel warning ')
+    log.error('Mensaje a nivel error ')
+    log.critical('Mensaje a nivel critical ')
