@@ -39,14 +39,14 @@ class Persona {//clase Padre
     return this.idPersona + ' ' + this._nombre +' '+this._apellido; 
   }
 
-//Sobreescribiendo el metodo de la clase padre(Object)
+  //Sobreescribiendo el metodo de la clase padre(Object)
   toString(){ //Regresa un String
     //Se aplica el polimorfismo que significa = Multiples formas en tiempo de ejecución
     //El método que se ejecuta depende si es una referencia de tipo padre o hija
     return this.nombreCompleto();
   }
 
-//metodo static se va a asociar a la clase no a los objetos, o sea no es posible asociarla
+  //metodo static se va a asociar a la clase no a los objetos, o sea no es posible asociarla
   static saludar(){
     console.log('Saludos desde este metodo static');
   }
@@ -105,6 +105,8 @@ console.log(empleado1.nombreCompleto());
 //Object.prototype.toString Esta es la manera de acceder a atributos y metodos de manera dinámica
 console.log(empleado1.toString());
 console.log(persona1.toString());
+
+
 
 //persona1.saludar();
 Persona.saludar();
