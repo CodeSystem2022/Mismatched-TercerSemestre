@@ -1,6 +1,8 @@
 package accesodatos;
 
 public class ImplementacionMySql implements IAccesoDatos{
+
+
     @Override
     public void actualizar() {
         System.out.println("Actualizar desde MySql");
@@ -16,5 +18,5 @@ public class ImplementacionMySql implements IAccesoDatos{
     @Override
     public void eliminar() {
         System.out.println("Eliminar desde MySql");
-    }    
+    }
 }
