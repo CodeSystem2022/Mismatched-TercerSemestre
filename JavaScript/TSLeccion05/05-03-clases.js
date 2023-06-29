@@ -1,4 +1,5 @@
 //let persona3 = new Persona('Carla','Ponce'); esto no se debe hacer: Përsona is not defined
+
 class Persona {//clase Padre
 
   static contadorPersonas = 0;//Atributo estático
@@ -37,6 +38,7 @@ class Persona {//clase Padre
   nombreCompleto(){
     return this.idPersona + ' ' + this._nombre +' '+this._apellido; 
   }
+
 //Sobreescribiendo el metodo de la clase padre(Object)
   toString(){ //Regresa un String
     //Se aplica el polimorfismo que significa = Multiples formas en tiempo de ejecución
@@ -60,12 +62,15 @@ class Empleado extends Persona{ //Clase hija
     super(nombre, apellido);
     this._departamento = departamento;
   }
+
   get departamento(){
     return this._departamento;
   }
+
   set departamento(departamento){
     this._departamento = departamento;
   }
+
   //Sobreescritura
   nombreCompleto(){
     return super.nombreCompleto() +', '+this._departamento;
@@ -75,14 +80,17 @@ class Empleado extends Persona{ //Clase hija
 let persona1 = new Persona('Martin', 'Perez');
 console.log(persona1.nombre);
 console.log(persona1.apellido);
+
 persona1.nombre = 'Juan Carlos';
 console.log(persona1.nombre);
 persona1.apellido = 'Rivadavia';
 console.log(persona1.apellido);
 //console.log(persona1);
+
 let persona2 = new Persona('Carlos', 'Lara');
 console.log(persona2.nombre);
 console.log(persona2.apellido);
+
 persona2.nombre = 'Maria Laura';
 console.log(persona2.nombre);
 persona2.apellido = 'Diaz';
