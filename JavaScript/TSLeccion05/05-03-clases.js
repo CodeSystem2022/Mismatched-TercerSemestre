@@ -1,30 +1,22 @@
 //let persona3 = new Persona('Carla','Ponce'); esto no se debe hacer: Përsona is not defined
 
-class Persona {//clase Padre
+class Persona {   //clase Padre
 
-  static contadorPersonas = 0;//Atributo estático
-  //email = 'Valor default email';//Atributo no estático 
+  static contadorPersonas = 0;  //Atributo estático
+  //email = 'Valor default email';  //Atributo no estático 
   static get MAX_OBJ(){
     return 5;
   }
 
   constructor(nombre, apellido) {
-    this._nombre = nombre;//No pueden llamarse de la misma manera las propiedades, por los getter and setter
+    this._nombre = nombre;  //No pueden llamarse de la misma manera las propiedades, por los getter and setter
     this._apellido = apellido;
     if(Persona.contadorPersonas < Persona.MAX_OBJ){
-      this.idPersona = ++Persona.contadorPersonas;//Incremento antes  
+      this.idPersona = ++Persona.contadorPersonas;  //Incremento antes  
     }else{
       console.log('Se ha superado el maximo de objetos permitidos');
     }
     //console.log('Se incrementa el contador: '+ Persona.contadorObjetosPersona);
-  }
-
-  get nombre(){
-    return this._nombre;
-  }
-
-  set nombre(nombre){
-    this._nombre = nombre;
   }
 
   get apellido(){
@@ -35,12 +27,20 @@ class Persona {//clase Padre
     this._apellido = apellido;
   }
 
+  get nombre(){
+    return this._nombre;
+  }
+
+  set nombre(nombre){
+    this._nombre = nombre;
+  }
+
   nombreCompleto(){
     return this.idPersona + ' ' + this._nombre +' '+this._apellido; 
   }
 
 //Sobreescribiendo el metodo de la clase padre(Object)
-  toString(){ //Regresa un String
+  toString(){   //Regresa un String
     //Se aplica el polimorfismo que significa = Multiples formas en tiempo de ejecución
     //El método que se ejecuta depende si es una referencia de tipo padre o hija
     return this.nombreCompleto();
@@ -57,7 +57,7 @@ class Persona {//clase Padre
 
 }
 
-class Empleado extends Persona{ //Clase hija
+class Empleado extends Persona{   //Clase hija
   constructor(nombre, apellido, departamento){
     super(nombre, apellido);
     this._departamento = departamento;
